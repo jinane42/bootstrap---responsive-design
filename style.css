@@ -1,0 +1,56 @@
+@media screen and (max-width: 300px) {
+    .media1{ 
+        width: 100px;
+        height: 100px;
+        background-color: red;
+    }
+    #small h3 {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .media1{ 
+        width: 100px;
+        height: 100px;
+        background-color: green;
+    }
+  
+    #medium h3{
+        font-size: 20px;
+        
+    }
+    section{
+        display: inline-flex;
+    }
+    #small {
+        width: 66%;
+    }
+    #medium{
+        width: 33%;
+    }
+    #large{width: 100%;}
+}
+@media screen and (min-width: 769px) {
+    .media1{ 
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+    }
+   
+    #large h3{
+        font-size: 40px;
+    }
+    section{
+        display: flex;
+    }
+    #small , #medium , #large{
+        width: 33%;
+    }
+}
+
+
+
+section div{
+   
+    background-color: blueviolet;
+}
